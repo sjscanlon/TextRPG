@@ -1,0 +1,522 @@
+"Sacrificial Flight" by Steven Scanlon
+[[Rooms]]
+
+The story description is "The story will take place in the star wars universe, the player will be controlling a character named Darth Arden, a sith lord, who is infiltrating a rebel gunship to find a way to disable it before it reaches its destination and can assist the republic in their fight on Yavin 4. The beginning will involve Arden arriving onto the gunship with nothing but his lightsaber. The middle of the story will consist of Arden searching through the gunship to try to find pieces of a holocron that will provide information for Arden to disable the ship. The end will result in a fight between Arden and a jedi on the bridge of the gunship and then Arden blowing up the gunship with himself on it to ensure victory. The dilemmas are finding all the pieces of the holocron and fighting to the bridge of the ship as well as sacrificing the player character at the end of the story."
+
+[[First Level]]
+
+[[Docking Bay]]
+Docking Bay is a room. "You step into the docking bay aboard the Republic Gunship 'Penance 11'  there is static in your com and then you hear:[line break] [line break]
+	'Darth Arden your interception of the Penance 11 as been successful. Your primary objective is to find the Jedi holocron aboard the ship, with the information on the holocron you will be able to successfully disable the Penance. Once you achieve this goal make your way back to our ship and return to the Imperial Fleet.'[line break] [line break]
+You are armed only with your lightsaber and there is nothing of use in the docking bay.[line break][line break]
+
+To interact with enemies you can choose one of the three following commands:[line break]
+Attack (enemy)[line break]
+Mind Trick (enemy) or Trick (enemy)[line break]
+Force Lightning (enemy) or Lightning (enemy)[line break] [line break]
+
+There is a Hallway to the south.[line break] [line break]
+
+Type HELP for a list of commands you can use."
+
+Character Attack is a room. "A room to store Characters."
+
+Character Mind Trick is a room. "A room to store Characters."
+
+Character Lightning is a room. "A room to store Characters."
+
+DeskStore is a room. "Store the Desk here."
+
+[[Empty Hallway]]
+The Empty Hallway is south of the Docking Bay and north of the Common Room. "You are in an empty hallway.[line break] [line break]
+The Docking Bay lies to the north, The Closet lies to the east, The Crews quarters lie to the west."
+
+[[Crew Quarters]]
+The Crew Quarters are west of the Empty Hallway and south of the Crew Bathroom. "The crews quarters is full of empty beds and lockers there appears to be nothing of significance here except for a small metal box that is locked.[line break] [line break]
+The Crew Bathroom lies to the north, the Empty Hallway lies to the east, there is nothing to the west or south."
+
+[[Bathroom]]
+The Crew Bathroom is north of the Crew Quarters. "It is a bathroom large enough for the whole crew of the Penance fitted with sinks, toilets, and showers. All of the waste appears to get launched into space, gross.[line break] [line break]
+The Crew Quarters lie to the south, nothing lies to the west, east, or north."
+
+[[Closet]]
+The Closet is east of the Empty Hallway. "You enter a closet, there are a bunch of cleaning supplies on the ground, and three keys hanging on the wall labeled: Crew Storage Key, Med Bay Key, and Armory Key.[line break] [line break]
+The Empty Hallway lies to the west, nothing lies to the north, east, or south." 
+
+[[Common Room]]
+The Common Room is south of Empty Hallway. "You enter a common room, There are Chairs and tables spread throughout the room with several holo projectors and holo screens for the republic forces.[line break] [line break]
+[if republic soldiers is in the Common Room] There are three Republic Soldiers sitting around a holo screen examining some data intently. They must be dealt with before leaving the room. [else if republic soldiers is in the Character Mind Trick] There are three Republic Soldiers sitting around a holo screen, they are convinced that you are a member of the Republic Senate, you are free to move past them. [else if republic soldiers is in the Character Lightning] The three Republic soldiers lie on the ground still sparking after being knocked unconscious by a resounding wave of chain lightning. [end if] [line break][line break]
+The Empty Hallway Lies to the north, the map room lies to the east, the weapon stores lie to the west, the republic cafeteria lies to the south."
+
+[[Armory Door]]
+The Armory Door One is south of the Weapon Stores and north of the Armory. The Armory Door One is a Closed Locked door. The description of the Armory Door is "This is door to the armory, A key is required to unlock it."
+
+[[Armory Door]]
+The Armory Door Two is east of the Armory and west of the Republic Cafeteria. The Armory Door Two is a Closed Locked door. The description of the Armory Door Two is "This is the door to the armory, a key is required to unlock it."
+
+[[Armory Door]]
+The Armory Door Three is south of the Armory and north of the Agents Study. The Armory Door Three is a Closed Locked door. The description of the Armory Door Three is "This is the door to the armory, a key is required to unlock it."
+
+[[Weapon Stores]]
+The Weapon Stores is west of the Common Room and north of the Armory Door One. "You enter a room full of republic weapons, none of which are truly interesting to you as they don't match the power of a lightsaber. A cabinet is above a small rack of blasters labeled 'OFF LIMITS'.[line break] [line break]
+The Common Area lies to the east, The Armory lies to the south, nothing lies to the west or north."
+
+[[Armory]]
+The Armory is south of the Armory Door One and west of Armory Door Two and north of the Armory Door Three. "You enter The armory of the Republic Gunship. There are rows upon rows of Armor for troopers and officers. There is nothing in here that will truly help you on your mission. [line break]
+[if Patrolling Soldier is in the Armory]There is one patrolling soldier going throughout the corridors. You will not be able to get through the armory without dealing with him. [else if patrolling soldier is in character mind trick] The patrolling soldier is convinced that you are his captain and now stays out of your way as you pass through the armory. [else if patrolling soldier is in character attack] The patrolling soldier lies dead on the ground after you cut him down before he could respond.[else if patrolling soldier is in character lightning]The patrolling soldier is hidden in a cubbie full of armor after you knocked him out. [line break] [line break]
+The Weapon stores lie to the north, the Republic Cafeteria lies to the east, the Agents Study lies to the south, nothing lies to the west."
+
+[[Secret Door]]
+The Secret Room Door is west of the Agents Study and east of the Secret Room. The Secret Room Door is a Closed Locked door. The description of the Secret Room Door is "This is a secret door hidden behind a table."
+
+Understand "Secret Door" as Secret Room Door.
+
+[[Agents Study]]
+The Agents Study is south of the Armory Door Three and west of the Pazaak Hall and east of the Secret Room Door. "You have entered the agents study. There are notes everywhere and everything looks cluttered. The Republic agent aboard this ship seems to have spent hours looking over notes about the ongoing war on Yavin 4.[line break] [line break] [if the Desk is in the Agents Study]You see a desk in the corner of the room that seems oddly out of place. [else if the Desk is in the DeskStore] You have thrown the desk aside and revealed a hidden door behind it that leads to the west.[end if][line break] [line break] The Armory is to the north, the Pazaak Hall is to the east, [if the Desk is in the DeskStore] the Secret Room is to the west, [end if]there is nothing to the south."
+
+[[Secret Room]]
+The Secret Room is west of the Secret Room Door and south of the Jedi Closet and north of the Jedi Sanctuary. "You are in a small cramped room with barely enough room to stand. There are thin passages to your north and south.[line break] [line break] The Jedi Closet is to the North, the Agents Study is to the east, the Jedi Sanctuary is to the south, there is nothing to the west."
+
+[[Jedi Closet]]
+The Jedi Closet is north of the Secret Room. "You enter a small closet full of Jedi Robes and armor. There are also several pairs of boots on the ground and a few blasters tossed to the side.[line break][line break][if the Holocron Piece V is in Jedi Closet] There is a faint glow coming from the pocket of one of the robes. It appears to be a piece of the holocron that the Jedi left behind.[line break][line break][end if] The Secret Room is to the south, there is nothing to the north, east, or west. "
+
+[[Jedi Sanctuary]]
+The Jedi Sanctuary is south of the Secret Room. "You enter a small room with limited light. There is a small meditation pad in the center of the room.[line break][line break]
+The Secret Room lies to the north, there is nothing to the east, south or west."
+
+[[Republic Cafeteria]]
+The Republic Cafeteria is south of the Common Room and east of the Armory Door Two. "You enter the Republic Cafateria there are rows of empty tables, apparently it is totally not time for a meal because there isn't a person in sight. There is a single delicious donut sitting on a table.[line break] [line break]
+The Common Room lies to the north, The Med Bay lies to the east, the Pazaak Hall lies to the south, the Armory lies to the west."
+
+[[Med Bay Door]]
+The Med Door One is south of the Map Room and north of the Med Bay. The Med  Door One is a Closed Locked door. The description of the Med Door One is "This is the door to the med bay, a key is required to unlock it."
+
+[[Map Room]]
+The Map Room is east of the Common Room and north of the Med Door One. "You enter the Map Room, it is full of 3d projected holo maps of the galaxies as well as one huge  projection of the planet Yavin 4, the planet that the Penance is en route to.[line break] [line break]
+[if Holocron Piece II is in the Map Room]Directly to the left of the huge map there is a small display holding another hovering piece of the jedi holocron.[end if] [line break] [line break]
+The Agents Quarters is to the east, the Med Bay is to the south, the Common Room is to the west, there is nothing to the north."
+
+[[Agents Quarter]]
+The Agents Quarters are east of the Map Room. "You enter the quarters of the Republic Agent aboard the ship. There is a small bed with a small table next to it. Across the room is a Desk littered with papers. [if the jedi notes is in Agents Quarters]One specific paper entitled Jedi Notes stands out.[end if]"
+
+[[Med Bay Door]]
+The Med Door Two is east of the Republic Cafeteria and west of the Med Bay. The Med Door Two is a Closed Locked door. The description of the Med Door Two is "This is the door to the med bay, a key is required to unlock it."
+
+[[Med Bay]]
+The Med Bay is south of the Med Door One and east of the Med Door Two and north of Med Door Three. "You step into the Med bay, it is full of medical supplies and and beds for patients. [line break][line break]
+[if c4-7t is in the Med Bay]There is one lone Medical Droid in the room, he sees you as you come in and says: 'Greetings I am C4-7T, I am a top of the line medical droid for all alien life forms. What ails you today?' [line break] [line break]
+Attack C4-7T?[line break]
+Force Lightning C4-7T?[line break]
+Mind Trick C4-7T?[line break]
+ [else if C4-7T is in Character Attack] C4-7T lies in pieces Scattered all over the ground still smoldering from the swings of your lightsaber.[end if] [if Holocron Piece III is in Med Bay] A small golden object has clattered to the ground falling from C4-7Ts body.[end if]"
+
+[[Med Bay Door]]
+The Med Door Three is north of the Med Bay Bathroom and south of the Med Bay. The Med Door Three is a Closed Locked door. The description of the Med Door Three is "This is the door to the med bay, a key is required to unlock it."
+
+
+[[Med Bay Bathroom]]
+The Med Bay Bathroom is south of the Med Door Three. "It is a bathroom large enough for the patients of the Penance fitted with sinks, toilets, and showers. All of the waste appears to get launched into space, gross.[line break] [line break]
+The Med Bay lies to the north, The Pazaak Hall lies to the west, nothing lies to the east or south."
+
+[[Pazaak Hall]]
+The Pazaak Hall is south of the Republic Cafeteria and west of the Med Bay Bathroom and east of the Agents Study and north of the Passageway. "You enter the Pazaak Hall. There are many tables set up for the friendly gambling game of Pazaak. There is a large crowd of republic forces spread throughout the hall. [line break] [line break] [if republic forces is in the Pazaak Hall] You better hurry up and do something about all of these forces otherwise you will be in a bunch of trouble.[line break][line break] [else if republic forces is in Character Mind Trick] All of the republic forces have been soothed by your mind trick and see you as simply another member of the republic here to gamble.[line break] [line break][end if] [if Rodian is in the Pazaak Hall] A shady Rodian walks up to you and asks you if you would like to gamble against him.[end if][line break][line break]
+The Republic Cafeteria lies to the north, the Med Bay Bathroom lies to the east, the Bridge Hall lies to the south, the Agents Study lies to the west."
+
+[[Bridge Hall]]
+The Passageway is south of the Pazaak Hall and north of the Bridge. "You enter a small hallway that only leads up to the main bridge of the ship to the south."
+
+[[The Bridge]]
+The Bridge is south of the Passageway. "You enter the main bridge of the Penance. There are countless republic forces all over the place keeping the gunship running. You better do something fast so that they dont spot you and kill you.[line break][line break] [if the player carries the Jedi Holocron] There is a button for the exhaust port nearby labeled 'DO NOT PRESS'.[end if]"
+
+[[Player Stuff]]
+
+The player carries a lightsaber. 
+
+[[Enemies]]
+
+A man is a kind of person.
+
+Republic Soldiers is a man. The description is "There are three Republic Soldiers sitting around a holo screen examining some data intently. They must be dealt with before leaving the room."
+
+Republic Soldiers is in the Common Room.
+
+Understand "Soldiers" as Republic Soldiers.
+
+Understand "Soldier" as Republic Soldiers.
+
+Patrolling Soldier is a man. The description is "A single patrolling soldier who guards the armory and makes sure no one is stealing anything. Must be dealt with to get through the armory."
+
+Patrolling Soldier is in the Armory.
+
+Understand "Patrol" as Patrolling Soldier.
+
+Understand "Soldier" as Patrolling Soldier.
+
+C4-7T is a man. The description is "A medical robot fit to help all alien life forms."
+
+C4-7T is in the Med Bay.
+
+Understand "Robot" as C4-7T.
+
+Understand "C4" as C4-7T.
+
+Republic Forces is a man in the Pazaak Hall. The description is "A large crowd of republic forces spread throughout the hall."
+
+Understand "Forces" as Republic Forces.
+
+Rodian is a man. The description is "A weird looking bluish alien with a snout like nose."
+
+[[Items]]
+
+[[Lightsaber]]
+A lightsaber is a switched off device. The description is "It is a lightsaber, the weapon of both the Sith and the Jedi. It must be turned on to be used for attacking. A quick and agile weapon for face to face combat. Use carefully."
+
+[[Small Metal Box]]
+A small metal box is a closed locked container in the Crew Quarters. "There is a small metal box that appears to be made out of a material resistant to lightsabers as well as blaster bullets." The description is "It is a small metal box capable of carrying a very small object."
+
+Understand "box" as small metal box.
+
+Instead of taking the box, say "The box appears to be bolted to the floor."
+
+[[Cabinet]]
+A Cabinet is a closed openable container in the Weapon Stores. "There cabinet is closed and seems to be holding something the republic doesn't want you to get your hands on." The description is "It's a wooden cabinet."
+
+Understand "cabinet" as Cabinet.
+
+Instead of taking the cabinet, say "The cabinet appears to be bolted to the wall."
+
+[[Holo Screen]]
+The Holo Screen is a thing in the Cabinet. The description is "It is a small electronic tablet device. The device has a message displayed on it: [line break]
+'To properly align the five pieces of the holocron a Jedi must meditate in the Jedi Sanctuary causing the pieces to come to life and reattach'."
+
+Understand "Screen" as Holo Screen.
+
+Understand "Tablet" as Holo Screen.
+
+[[Holocron Piece]]
+A Holocron Piece I is a thing in the small metal box. The description is "It's a small metal triangle with sharp edged designs inlaid throughout it. You feel vibrations of the force eminating from it. Needs to be placed in Jedi Sanctuary."
+
+Understand "holocron" as Holocron Piece I.
+
+Understand "piece" as Holocron Piece I.
+
+A Holocron Piece II is a thing in the Map Room. The description is "It's a small metal triangle with sharp edged designs inlaid throughout it. You feel vibrations of the force eminating from it. Needs to be placed in Jedi Sanctuary."
+
+Understand "holocron" as Holocron Piece II.
+
+Understand "piece" as Holocron Piece II.
+
+A Holocron Piece III is a thing. The description is "It's a small metal triangle with sharp edged designs inlaid throughout it. You feel vibrations of the force eminating from it. Needs to be placed in Jedi Sanctuary."
+
+Understand "holocron" as Holocron Piece III.
+
+Understand "piece" as Holocron Piece III.
+
+A Holocron Piece IV is a thing. The description is "It's a small metal triangle with sharp edged designs inlaid throughout it. You feel vibrations of the force eminating from it. Needs to be placed in Jedi Sanctuary."
+
+Understand "holocron" as Holocron Piece IV.
+
+Understand "piece" as Holocron Piece IV.
+
+A Holocron Piece V is a thing in the Jedi Closet. The description is "It's a small metal triangle with sharp edged designs inlaid throughout it. You feel vibrations of the force eminating from it. Needs to be placed in Jedi Sanctuary."
+
+Understand "holocron" as Holocron Piece V.
+
+Understand "piece" as Holocron Piece V.
+
+A Jedi Holocron is a thing. The description is "The fully complete Jedi Holocron reveals all the secrets of the Gunship. Unfortunately that leads you to the only possible solution to stop the Penance 11 from making it to Yavin 4. You must get to the bridge and push the exhaust port button which will cause a reactor meltdown, destroying the entire ship. This will all happen in moments, but it is the only way to stop the Penance."
+
+Understand "holocron" as Jedi Holocron.
+
+[[Keys]]
+The Crew Storage Key is a thing. The Crew Storage Key unlocks the small metal box.
+
+A Crew Storage Key is in the Closet. "Crew Storage Key." The description is "A small metal key."
+
+The Med Bay Key is a thing. The Med Bay Key unlocks the Med Door One and the Med Door Two and the Med Door Three.
+
+A Med Bay Key is in the Closet. "Med Bay Key." The description is "A small metal key."
+
+The Armory Key is a thing. The Armory Key unlocks the Armory Door One and the Armory Door Two and the Armory Door Three.
+
+A Armory Key is in the Closet. "Armory Key." The description is "A small metal key."
+
+Understand "key" as Armory Key.
+
+Understand "keys" as Armory Key.
+
+Understand "key" as Med Bay Key.
+
+Understand "keys" as Med Bay Key.
+
+Understand "Med key" as Med Bay Key.
+
+Understand "bay key" as Med Bay Key.
+
+Understand "key" as Crew Storage Key.
+
+Understand "keys" as Crew Storage Key.
+
+Understand "Crew Key" as Crew Storage Key.
+
+A Desk is a thing.
+
+A Desk is in Agents Study. "Desk." The description is "A wooden Desk with nothing on it."
+[[Donut]]
+The Donut is a thing. The Donut is edible. The description is "It is a delicious glazed donut. Why it's the only piece of food on this gunship right now is very odd."
+
+The Donut is in the Republic Cafeteria.
+
+The Jedi Notes is a thing. The description is "Jedi Notes:[line break] Today while talking with members of the crew I was told that they always see Jedi Master Tanz going into my study and coming out after an hour. Maybe the Secret Jedi Sanctuary behind my study has something to do with the holocron. I still am not sure how he gets behind that desk, must use force powers or something."
+
+The Jedi Notes is in Agents Quarters.
+
+Understand "Notes" as Jedi Notes.
+
+Exhaust Port Button is a thing. The description is "The exhaust port button, DO NOT PRESS."
+
+Understand "Button" as Exhaust Port Button.
+
+The Exhaust Port Button is in the Bridge.
+
+[[Actions]]
+
+Understand "Push [something]" as Pushing.
+
+Understand "Press [something]" as Pushing.
+
+Instead of Pushing the Exhaust Port Button:
+	if the player is carrying Jedi Holocron, end the story saying "There is a rumble in the ship, The crew aboard the bridge all looks startled. You come to the realization that you will not be able to get off of the Penance before it explodes.  You accept your fate, you have done your job here. The Penance will never make it to its destination. [line break][line break]THE END."
+
+Meditating is an action applying to nothing.
+
+Understand "Meditate" as Meditating.
+
+Check Meditating:
+	if the player is in the Jedi Sanctuary:
+	 	if Holocron Piece I is in the Jedi Sanctuary:
+			if Holocron Piece II is in the Jedi Sanctuary:
+				if Holocron Piece III is in the Jedi Sanctuary:
+					if Holocron Piece IV is in the Jedi Sanctuary:
+						if Holocron Piece V is in the Jedi Sanctuary, say "While meditating you cause all of the pieces of the Holocron to float into the air and align themselves and slowly come together to fuse into one solid Jedi Holocron.";
+						Now the player carries Jedi Holocron. 
+		
+
+Gambling is an action applying to one thing.
+
+Understand "Gamble [something]" as Gambling.
+
+Understand "Gamble against [something]" as Gambling.
+
+Understand "Gamble with [something]" as Gambling.
+
+Instead of Gambling the Rodian:
+	say "You play a friendly game of Pazaak against the rodian for the shiny object he says he possess', with the help of a few mind tricks here and ther you beat him with ease, He hands over the shiny object and huffs at you as he leaves the table.";
+	Now Rodian is in the Character Mind Trick.; Now the player carries Holocron Piece IV.
+
+Forcing is an action applying to one thing.
+
+Understand "Force [something]" as Forcing.
+
+Understand "Force Push [something]" as Forcing.
+
+Instead of Forcing the Desk:
+	say "You use the force on the desk and it gently slides to the right as if on a track, revealing a secret door behind it.";
+	Now the Desk is in the DeskStore.; Now Secret Room Door is unlocked.
+	
+Check Going:
+	if the Player is in the Common Room:
+		if the Republic Soldiers is in the Common Room, say "You must deal with the Republic Soldiers first." instead.
+
+Check Going:
+	if the Player is in the Armory:
+		if the Patrolling Soldier is in the Armory, say "You must deal with the patrolling soldier first." instead.
+		
+Check Going:
+	if the Player is in the Pazaak Hall:
+		if the Republic Forces is in the Pazaak Hall, say "You must deal with the patrolling soldier first." instead.
+		
+Understand "use [a closed openable container]" as opening. Understand "use [an open openable container]" as closing.
+
+Understand "use [something preferably held] on [a locked lockable thing]" as unlocking it with (with nouns reversed). Understand "use [something preferably held] on [an unlocked lockable thing]" as locking it with (with nouns reversed).
+
+Instead of examining the player:
+	say "You are Darth Arden, Lord of the Sith, You exist to do the bidding of your master Darth Leviathan. You are remorseless and see the only end to a mission being its succes or your death."
+
+[[Mind Trick]]
+Mind Tricking is an action applying to one thing.
+
+Understand "Mind Trick [something]" as Mind Tricking.
+
+Understand "Trick [something]" as Mind Tricking.
+
+Instead of Mind Tricking the Republic Soldiers:
+	say "You successfully control the soldiers minds into believing that you are a member of the republic senate. The will no longer be of any threat to you.";
+	Now Republic Soldiers is in Character Mind Trick.
+	
+Instead of Mind Tricking the Patrolling Soldier:
+	say "You successfully mind control the patrolling soldier, he now firmly believes you to be his captain and steers clear of you as you walk through the armory.";
+	Now Patrolling Soldier is in Character Mind Trick.
+	
+Instead of Mind Tricking the C4-7T:
+	say "You can't do that to robots. [line break] [line break] 'Greetings I am C4-7T, I am a top of the line medical droid for all alien life forms. What ails you today?'"
+	
+Instead of Mind Tricking the Republic Forces:
+	say "You let out a powerful force wave across everyone in the hall, soothing them into the understanding that you are simply another member of the republic here to gamble.";
+	Now Republic Forces is in Character Mind Trick.; Now Rodian is in the Pazaak Hall.
+[[Slashing]] 
+
+Check Attacking:
+	if the lightsaber is switched off, say "You can't attack with your lightsaber turned off." instead.
+	
+Instead of Attacking the Republic Soldiers:
+	say "The Republic Soldiers react to the sound of your lightsaber as you start to attack. They barrage you with a hail of blaster bolts, you reflect one of the bolts at the soldier on the left killing him instantly. You drop into a roll to dodge two more bolts and slash forward as you rise up killing the middle soldier and with a quick force push you slam the third soldier into the wall ending your short brawl.";
+	Now Republic Soldiers is in Character Attack.
+	
+Instead of Attacking the Patrolling Soldier:
+	say "You deftly sneak up on the patrolling soldier not making a sound, then quickly turn your lightsaber on, the blade quickly passing through his chest and into his heart, he falls limp and dies.";
+	Now Patrolling Soldier is in Character Attack.
+	
+Instead of Attacking the C4-7T:
+	say "You leap forward and in a quick and decisive motion slash C4-7T into 12 tiny pieces leaving nothing but scraps behind. As he falls to the ground you see a small golden object fly across the room.";
+	Now C4-7T is in Character Attack.; Now Holocron Piece III is in the Med Bay.
+	
+Instead of Attacking the Republic Forces:
+	say "It would be a terrible idea to try to take on this many forces without any help."
+	
+
+	
+[[Lightning]]
+Lightning is an action applying to one thing.
+
+Understand "Force Lightning [something]" as Lightning.
+
+Understand "Lightning [something]" as Lightning.
+
+Instead of Lightning the Republic Soldiers:
+	say "Before the Republic Soldiers are capable of responding you attack them with a huge wave of force lightning, successfully incapacitating each of them.";
+	Now Republic Soldiers is in Character Lightning.
+	
+Instead of Lightning the Patrolling Soldier:
+	say "From clear across the room you slam a bolt of force lightning right into the patrolling soldier, he drops limp to the ground with no response, you throw him into a cubbie full of armor.";
+	Now Patrolling Soldier is in Character Lightning.
+
+Instead of Lightning the C4-7T:
+	say "You send bolts of lightning flying towards the med bot, sending sparks flying all over the med bay. [line break][line break] 'Greetings I am C4-7T, I am a top of the line medical droid for all alien life forms. What ails you today?'"
+
+Instead of Lightning the Republic Forces:
+	say "It would be a terrible idea to attack this many forces without any help."
+	
+Understand "place" as dropping.
+
+Using is an action applying to one thing.
+
+Understand "Turn on [something]" as Using.
+
+Understand "Use [something]" as Using.
+
+A Sink is a thing. The description is "It is a sink."
+A Med Bay Sink is a thing. The description is "It is a sink."
+
+
+The Sink is in the Crew Bathroom.
+The Med Bay Sink is in the Med Bay Bathroom.
+
+A Shower is a thing. The description is "It is a Shower."
+A Med Bay Shower is a thing. The description is "It is a Shower."
+
+The Shower is in the Crew Bathroom.
+The Med Bay Shower is in the Med Bay Bathroom.
+
+A Toilet is a thing. The description is "It is a toilet."
+A Med Bay Toilet is a thing. The description is "It is a toilet."
+
+The Toilet is in the Crew Bathroom.
+The Med Bay Toilet is in the Med Bay Bathroom.
+
+Instead of Using the Sink:
+	say "You turn the sink on, you are just wasting water, don't you know we are in a drought?"
+	
+Instead of Using the Med Bay Sink:
+	say "You turn the sink on, you are just wasting water, don't you know we are in a drought?"
+	
+Instead of Using the Shower:
+	say "You turn the shower on, you are just wasting water, don't you know we are in a drought?"
+	
+Instead of Using the Med Bay Shower:
+	say "You turn the shower on, you are just wasting water, don't you know we are in a drought?"
+	
+Instead of Using the Toilet:
+	say "You are trying to destroy a gunship there is no time for that."
+	
+Instead of Using the Med Bay Toilet:
+	say "You are trying to destroy a gunship there is no time for that."
+	
+Instead of Taking the Sink:
+	say "You can't take that."
+	
+Instead of Taking the Med Bay Sink:
+	say "You can't take that."
+	
+Instead of Taking the Shower:
+	say "You can't take that."
+	
+Instead of Taking the Med Bay Shower:
+	say "You can't take that."
+	
+Instead of Taking the Toilet:
+	say "You can't take that."
+	
+Instead of Taking the Med Bay Toilet:
+	say "You can't take that."
+	
+A Weapons is a thing.
+
+The Weapons is in the weapon stores.
+
+Understand "blaster" as Weapons.
+Understand "gun" as weapons
+
+Instead of Taking the Weapons:
+	say "You have no need for that."
+	
+The Armor is a thing.
+
+The armor is in the armory.
+
+Instead of Taking the Armor:
+	say "You have no need for that."
+	
+A Bed is a thing.
+
+The Bed is in Crew Quarters.
+
+Instead of Using the Bed:
+	say "Now is no time for a nap."
+[[COMMANDS]]
+
+Commanding is an action applying to nothing.
+
+Understand "Help" as Commanding.
+
+Instead of Commanding:
+	say "To move type:[line break] 
+	Go (direction, North, South, East, or West) or just type N, S, E, or W[line break]
+	To interact with enemies type:[line break]
+	Attack (enemy)[line break]
+	Mind Trick (enemy) or Trick (enemy)[line break]
+	Force Lightning (enemy) or Lightning (enemy)[line break] 
+	Other Actions:[line break]
+	Meditate, To meditate in certain rooms[line break]
+	Talk to (Someone); to attempt to interact with character[line break]
+	Force (Something); to attempt to use the force on something[line break]
+	Push (Something); to attempt to push a button.[line break]
+	Use (Something); to attempt to use a thing. [line break]
+	Type INV for all the items the player is carrying."
+
+Release along  with cover art, the source text, an interpreter, and a website.
+
+[[Release along with a file of "Walkthrough" called "SacrificialFlightWalkthrough.pdf".
+
+Release along with a file of "Description" called "SacrificialFlightDescription.pdf".]]
+	
